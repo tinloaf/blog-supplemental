@@ -1,3 +1,5 @@
+This is the benchmark code for [https://www.lukas-barth.net/blog/emacs-wsl-copy-clipboard/](my blog article on efficiently allocating std::shared_ptr)
+
 Building
 ==========
 
