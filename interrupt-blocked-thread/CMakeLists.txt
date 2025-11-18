@@ -9,5 +9,6 @@ add_executable(basic basic.cpp)
 add_executable(jthread jthread.cpp)
 add_executable(stdin stdin.cpp)
 add_executable(interrupted interrupted.cpp)
+add_executable(interrupted_jthread interrupted_jthread.cpp)
 
 
