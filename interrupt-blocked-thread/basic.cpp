@@ -27,6 +27,8 @@ int main(int argc, char **argv) {
   Thread t;
   t.run();
   std::this_thread::sleep_for(std::chrono::seconds{5});
+  std::cout << "Requesting thread to stop.\n";
   t.stop();
+  std::cout << "Exiting main()\n";
   return 0;
 }
